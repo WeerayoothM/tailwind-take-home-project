@@ -5,7 +5,7 @@ function DetailBox({ title = "", body = "", style = "", addOnPrice = "" }) {
     <div
       className={`flex justify-between items-center border rounded-lg border-gray-300 p-5 hover:border-gray-400 ${style}`}
     >
-      <div className="w-full flex flex-col justify-center">
+      <div className="w-full flex flex-col h-full">
         <p className="text-sm text-gray-900 leading-5 font-medium">{title}</p>
         {body && (
           <p className="text-sm text-gray-500 leading-5 mt-2 font-normal">

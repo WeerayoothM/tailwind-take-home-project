@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
-      <div className="container mx-auto py-16">
+      <div className="w-10/12 md:w-10/12 lg:w-11/12 mx-auto py-16">
         <header className="pb-6 border-b border-gray-300">
           <h1 className="text-4xl font-extrabold">
             Get your Kemper Profiling Amp
@@ -18,7 +18,7 @@ export default function Home() {
             All your favorite amps and effects, together in one little box.
           </h2>
         </header>
-        <div className="grid grid-cols-2 gap-8 mt-12">
+        <div className="grid lg:grid-cols-2 gap-8 mt-12">
           <div className="col-span-1">
             <ImageDisplay />
           </div>

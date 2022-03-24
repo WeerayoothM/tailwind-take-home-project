@@ -23,7 +23,7 @@ function ProductDetail() {
         which we call "PROFILING".
       </p>
       <h4 className="text-gray-900 text-lg leading-7 mt-12">Form Factor</h4>
-      <div className="grid grid-cols-2 gap-4 mt-2">
+      <div className="grid sm:grid-cols-2 gap-4 mt-2 transition-all ease-in-out delay-150 duration-100">
         <DetailBox
           title="Profiler Head"
           body="Compact amplifier head, perfect for a speaker cabinet or desk."
